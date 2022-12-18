@@ -1,0 +1,67 @@
+#1
+class Stringfoo:
+    def __init__(self):
+        self.chaise = str
+        
+    def set_string(selfself, parametre):
+        self.chaise = parametre
+        
+    def print_string(self):
+        print(self.chaise)
+        
+objet = StringFoo()
+objet.set_string("chose")
+objet.print_string()
+
+
+
+
+
+
+#2
+class Rectangle:
+def
+__init__(self, width: int, height: int):
+naIl
+:param width:
+:param height:
+nan
+self.width = width
+self.height = height
+def
+str (self):
+mun
+:return:
+return f"Rectangle: width={self.width}, height=(self.height}"
+
+#3
+class Circle:
+def
+init__(self, radius: int):
+:param radius:
+naIl
+self.radius = radius
+def
+str (self):
+mun
+:return:
+return "Circle: radius=(self.radius}"
+def area(self):
+•return:
+return pi * self.radius ** 2
+def circumference(self):
+•return:
+return 2 * pi * self.radius
+
+#4
+class Hero:
+naIl
+def
+_init__(self, name: str, level, strength: int, life: int, defense: int):
+•param name:
+:param level:
+self.name = name
+self.level = level
+self.strength = strength
+self.life = life
+self.defense = defense
